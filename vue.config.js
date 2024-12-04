@@ -4,3 +4,5 @@ module.exports = defineConfig({
     'vuetify'
   ]
 })
+
+require('dotenv').config()
