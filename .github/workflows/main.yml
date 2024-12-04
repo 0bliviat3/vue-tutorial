@@ -16,7 +16,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: vue-test/node
+          images: 0bliviate/vue_test
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
