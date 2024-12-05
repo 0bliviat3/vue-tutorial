@@ -43,7 +43,7 @@ export default {
             newItem: '',
             selectedItems: [],
             selectAll: false,
-            domain: process.env.VUE_APP_DEV_URL
+            domain: process.env.VUE_APP_BACK_URL
         }
     },
     methods: {
